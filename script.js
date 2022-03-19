@@ -35,5 +35,4 @@ post.addEventListener('click', function () {
     var newchild = document.getElementById('flashcard')
     newchild.insertBefore(image, newchild.childNodes[0]);
     document.getElementById('popupContact').style.display = "none";
-    ##
 })
